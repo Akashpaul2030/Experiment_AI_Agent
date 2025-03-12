@@ -1,0 +1,48 @@
+# Ignore environment variables and secrets
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore logs and local data
+*.log
+*.csv
+*.sqlite3
+*.db
+
+# Ignore virtual environments
+venv/
+.env/
+.envrc
+.vscode/
+
+# Ignore package files
+*.egg-info/
+dist/
+build/
+*.egg
+*.manifest
+*.spec
+
+# Ignore Pytest cache
+.pytest_cache/
+
+# Ignore IDE/editor configurations
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Ignore compiled code
+*.so
+*.dll
+*.dylib
+
+# Ignore MacOS system files
+.DS_Store
